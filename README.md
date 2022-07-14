@@ -14,13 +14,13 @@ HTML<br/>CSS<br/>VS Code
 
 # Screenshot
 
-![Home Page](../Assets/images/ss-1.png)
+![Home Page](./Assets/images/ss-1.png)
 <br/>
-![About Me](../Assets/images/ss-2.png)
+![About Me](./Assets/images/ss-2.png)
 <br/>
-![Work](../Assets/images/ss-3.png)
+![Work](./Assets/images/ss-3.png)
 <br/>
-![Roll over effect](../Assets/images/ss-4.png)
+![Roll over effect](./Assets/images/ss-4.png)
 <br/>
 # Links
 
