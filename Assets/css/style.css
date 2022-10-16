@@ -8,6 +8,7 @@
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
     }
 
 /* HEADER FONT SIZE */
@@ -15,6 +16,12 @@
     display: inline-block;
     font-size: 48px;
     }
+
+/* HEADER FONT SIZE */
+.header h2 {
+    display: inline-block;
+    font-size: 20px;
+    }    
 
 /* HEADER LINKS SPECIFICATION */
 .header div {
@@ -72,15 +79,19 @@ p {
 }
         
 /* HEADER BACKGROUND IMAGE */
-.header-bg {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/final.jpg");
-    background-size: cover;
-    background-position: center;
-}
 
+/*.header-bg 
+  { height: 400px;
+    width: auto;
+    margin-bottom: 25px;
+    background-image: url("../images/final.jpg"); 
+    background-size:cover;
+    background-position: center;
+    
+  }*/
+ 
+    
+  
 /* FLOATING HEADER LINKS */
 .float-right {
     float: right;
@@ -115,3 +126,38 @@ p {
     border: 5px solid #4056a1;
     margin: 25px; 
   }
+
+  /*#bg-container img{
+    width: auto;
+    height: auto;
+  }*/
+
+  /*@media only screen and (max-width: 400px) {
+    #header-bg{
+            width: auto;
+            height: auto;
+            background-size: 100% !important;
+    }
+  }*/
+
+  /* HEADINGS */
+  @media only screen and (max-width: 801px) and (min-width: 320px) {
+    .header div ul li {
+      /*float: right;*/
+      font-size: 15px;
+    }
+  }
+  
+  /* TEXT */
+  @media only screen and (max-width: 801px) and (min-width: 320px) {
+    .center tr td {
+      float:left;
+      font-size: 15px;
+    }
+  }
+
+  /*@media only screen and (max-width: 1024px) {
+    .text {
+      font-size:25px;
+    }
+  }*/
